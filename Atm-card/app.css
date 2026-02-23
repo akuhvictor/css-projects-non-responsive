@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Color */
+  --primary: black;
+  --secondary: #fff9db;
+
+  /* Typography */
+  --text-bold: 700;
+  --text-sm-bold: 400;
+
+  /* font-size */
+  --text-sm: 1.5rem;
+  --text-lg: 2rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-body {
+  max-width: 1200px;
+  width: 90%;
+  margin: 100px auto;
+}
+.card-container {
+  background-color: var(--primary);
+  width: 50rem;
+  border-radius: 20px;
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+.master-card-logo {
+  width: 7.5rem;
+}
+
+p {
+  color: var(--secondary);
+  /* text-align: center; */
+  /* padding-left: 3rem; */
+}
+
+.card-chip {
+  width: 7.5rem;
+  margin-left: 15rem;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-lg);
+  font-weight: var(--text-sm-bold);
+  margin-bottom: 4rem;
+}
+
+.card-text {
+  font-size: var(--text-sm);
+  padding-left: 4rem;
+}
+
+.card-number {
+  font-size: var(--text-lg);
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.card-details {
+  display: flex;
+  gap: 20rem;
+}
+
+.card-name {
+  font-size: var(--text-sm);
+  padding-left: 4rem;
+  align-self: flex-end;
+}
+
+.card-date {
+  font-size: var(--text-sm);
+  align-self: flex-start;
+}
