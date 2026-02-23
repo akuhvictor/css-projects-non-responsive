@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADMIN</title>
+
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <aside>
+        <div class="side-bar">
+          <div class="sidebar-section1">
+            <div class="comp-logo">
+              <ion-icon class="comp-icon" name="logo-soundcloud"></ion-icon>
+              <p>Soundbond</p>
+            </div>
+
+            <ul>
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="grid"></ion-icon>
+                <p>Overview</p>
+                </div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+
+              <li>
+                 <div class="sidebar-item">
+                <ion-icon name="person-circle"></ion-icon>
+                <p>User Profile</p>
+                </div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+
+              <li>
+                 <div class="sidebar-item">
+                <ion-icon name="people"></ion-icon>
+                <p>User Management</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="cloud-upload"></ion-icon>
+                <p>Content Upload</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+
+              <li>
+
+                <div class="sidebar-item">
+                 <div class="event-container">
+                <ion-icon name="calendar"></ion-icon>
+                  <p>Events</p>
+ </div>
+                  <button class="btn-external">External</button>
+               
+</div>
+                  <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="storefront"></ion-icon>
+                <p>Store Management</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="card"></ion-icon>
+                <p>Sales & Payments</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-section2">
+            <ul>
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="settings"></ion-icon>
+                <p>Settings</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li>
+                <div class="sidebar-item">
+                <ion-icon name="help-circle"></ion-icon>
+                <p>Help & Support</p>
+</div>
+                <ion-icon class="dropdown" name="chevron-forward-outline"></ion-icon>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <nav>
+          <div class="nav-menu">
+            <ion-icon name="list-circle-outline"></ion-icon>
+            <p>Admin Dashboard</p>
+          </div>
+
+          <div class="nav-admin">
+            <img src="image/team-1.jpg" alt="Admin image" />
+            <div class="nav-text">
+              <p class="admin-name">Jackob Gerrald</p>
+              <p>Super Admin</p>
+            </div>
+          </div>
+        </nav>
+
+        <section >
+          <h2>Sales and Payment History</h2>
+          <div class="payment-container">
+            <div class="payment-history">
+              <div class="revenue-header">
+                <p>Total Revenue</p>
+                <ion-icon name="card-outline"></ion-icon>
+              </div>
+              <p class="price">$45,231.0</p>
+              <p class="perfomace-text">+20.1% from last month</p>
+            </div>
+            <div class="payment-history">
+              <div class="revenue-header">
+                <p>Merchandise Sales</p>
+                <ion-icon name="cart-outline"></ion-icon>
+              </div>
+              <p class="price">$18,453.00</p>
+              <p class="perfomace-text">+22.6% from last month</p>
+            </div>
+
+            <div class="payment-history">
+              <div class="revenue-header">
+                <p>Music Sales</p>
+                <ion-icon
+                  class="music-logo"
+                  name="musical-notes-outline"
+                ></ion-icon>
+              </div>
+              <p class="price">$12,543.00</p>
+              <p class="perfomace-text">+15.3% from last month</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="transactions">
+          <div class="transactio-header-container">
+          <div class="transaction-header">
+          <h3>Payment Transcactions</h3>
+          <p>A list of your recent sales and payments</p>
+          </div>
+
+          <button class="btn-dropdown">Most Recent
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </button>
+          </div>
+
+          <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+              <th>Transaction ID</th>
+              <th>Customer</th>
+              <th>Date</th>
+              <th>Product</th>
+              <th>Amount</th>
+              <th>Status</th>
+              </tr>
+            </thead>
+            <tr>
+<td>#TRX-2389</td>
+<td>Alex Johnson</td>
+<td>Jan 12,2025</td>
+<td>Tshirt</td>
+<td>$45.00</td>
+<td >
+  <div class="status completed">
+  <ion-icon name="checkmark-outline"></ion-icon>
+  Completed
+</div>
+</td>
+            </tr>
+            <tr>
+<td>#TRX-2388</td>
+<td>Sarah Miller</td>
+<td>Feb 22,2025</td>
+<td>Covid restrictions</td>
+<td>$99.00</td>
+<td >
+  <div class="status completed">
+  <ion-icon name="checkmark-outline"></ion-icon>
+  Completed
+</div>
+</td>
+            </tr>
+            
+            <tr>
+<td>#TRX-2387</td>
+<td>David Villa</td>
+<td>Feb 14,2025</td>
+<td>Valentine package</td>
+<td>$22.99</td>
+<td >
+  <div class="status pending">
+  <ion-icon name="aperture-outline"></ion-icon>
+  Pending
+</div>
+</td>
+            </tr>
+
+
+            <tr>
+<td>#TRX-2386</td>
+<td>Emma Watson</td>
+<td>May 17,2026</td>
+<td>Shoes</td>
+<td>$35.00</td>
+<td >
+  <div class="status completed">
+  <ion-icon name="checkmark-outline"></ion-icon>
+  Completed
+  </div>
+</td>
+            </tr>
+            <tr>
+              <td>#TRX-2389</td>
+              <td>Alex Johnson</td>
+              <td>Jan 12,2025</td>
+              <td>Tshirt</td>
+              <td>$45.00</td>
+              <td >
+                <div class="status pending">
+                <ion-icon name="aperture-outline"></ion-icon>
+                Pending</td>
+                </div>
+            </tr>
+          </table>
+          </div>
+        </section>
+
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
